@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --compilers js:node_modules/babel-cli/node_modules/babel-core/register --require ./test/test_helper.js \"test/**/*@(.js|.jsx)\"",
+    "test": "mocha --compilers js:node_modules/babel-core/register --require ./test/test_helper.js \"test/**/*@(.js|.jsx)\"",
     "test:watch": "npm run test -- --watch"
   },
   "keywords": [],
@@ -27,7 +27,12 @@
     ]
   },
   "dependencies": {
+    "chai": "^3.5.0",
+    "chai-immutable": "^1.5.4",
+    "immutable": "^3.7.6",
+    "mocha": "^2.4.5",
     "react": "^0.14.8",
+    "react-addons-test-utils": "0.14.8",
     "react-dom": "^0.14.8"
   }
 }
