@@ -38,6 +38,7 @@
     "pure-render-decorator": "^1.1.0",
     "react": "^0.14.8",
     "react-addons-test-utils": "0.14.8",
-    "react-dom": "^0.14.8"
+    "react-dom": "^0.14.8",
+    "react-router": "^2.0.0"
   }
 }
