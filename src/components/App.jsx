@@ -4,8 +4,8 @@ import {List} from 'immutable';
 const pair = List.of('Trainspotting', '28 Days Later');
 
 export default class App extends React.Component {
-  constructor(){
-    super()
+  constructor(props){
+    super(props)
   }
 
   render(){
